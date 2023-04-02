@@ -1,0 +1,23 @@
+.save-image
+{
+    margin: 10px;
+    
+}
+.save-image button
+{
+    background-color: rgba(0,0, 200, 0.6);
+    color:#fff;
+    padding:10px;
+    font-weight: bold;
+    font-size:large;
+    border:none;
+    border-radius:5px;
+    float:right;
+    margin: 10px 0;
+    
+}
+.save-image button:hover
+{
+    cursor: pointer;
+    background-color: rgba(59, 130, 246, 1);
+}

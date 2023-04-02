@@ -1,0 +1,50 @@
+.schedule-table
+{
+    box-sizing:border-box;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    width: 100%;
+    background-color: #fff;
+}
+.schedule-table th
+{
+    width: calc(92%/7);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+.schedule-table tr
+{
+    width: 100%;
+    text-align: center;
+}
+.schedule-table td
+{
+    width: calc(92%/7);
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    position: relative;
+}
+th.hours, td.hours
+{
+    width: 9%;
+}
+.activity
+{
+    background-color:rgb(97, 167, 241);
+    color: aliceblue;
+}
+.activity span{
+    display: block;
+}
+.activity span.header
+{
+    font-weight: bold;
+    padding:0px;
+    background-color:rgb(97, 167, 241);
+}
+.cancel-course
+{
+    position:absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}

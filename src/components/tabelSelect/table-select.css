@@ -1,0 +1,62 @@
+div.div-subject
+{
+    max-height: 90vh;
+    overflow: scroll;
+    margin: 10px 0;
+}
+.table-select
+{
+    margin: 10px 0;
+}
+
+.table-select td, .table-select th, .table-select tr
+{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    min-width: 100px;
+}
+td.check-box
+{
+    min-width:20px;
+}
+.table-header
+{
+    background-color: rgba(59, 130, 246, 1);
+    color:#fff;
+}
+
+.checkbox
+{
+    background-color:#374151;
+    margin: 5px;
+    padding:10px;
+    font-size:110%;
+    transform: scale(1.5);
+}
+div.search
+{
+    margin: 20px 0;
+    padding: 0px;
+    text-align:left;
+}
+div.search input
+{
+    padding: 5px;
+    font-size: large;
+}
+div.search button
+{
+    padding: 6px;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(59, 130, 246, 0.8);
+    border: none;
+    color:#fff;
+    min-width: 100px;
+    border-radius: 5px;
+}
+div.search button:hover
+{
+    cursor: pointer;
+    background-color: rgba(59, 130, 246, 1);
+}
